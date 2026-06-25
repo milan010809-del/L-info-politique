@@ -335,13 +335,13 @@ main {
 .cassation { background: #e0c2f4; color: black; }
 .etat { background: #c2f0f4; color: black; }
 body {
-    animation: fadeIn 0.4s ease-in;
+    animation: fadeIn 1.2s ease-in;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(10px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
