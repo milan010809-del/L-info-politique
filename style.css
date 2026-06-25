@@ -296,3 +296,41 @@ main {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(255, 0, 80, 0.6);
 }
+.institution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.institution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 160px;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.institution:hover {
+    transform: scale(1.05);
+}
+
+/* 🌸 COULEURS PASTEL */
+
+.presidence { background: #f4c2c2; color: black; }
+.gouvernement { background: #c2d4f4; color: black; }
+.parlement { background: #c2f4d1; color: black; }
+.conseil-const { background: #f4e1c2; color: black; }
+.cassation { background: #e0c2f4; color: black; }
+.etat { background: #c2f0f4; color: black; }
