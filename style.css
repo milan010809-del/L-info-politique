@@ -276,3 +276,23 @@ main {
 .party.ps { background: #ff4d4d; }
 .party.lr { background: #1f4fa3; }
 .party.pcf { background: #e30613; }
+.tiktok-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+
+    background: linear-gradient(45deg, #ff0050, #00f2ea);
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 30px;
+
+    transition: 0.3s;
+}
+
+.tiktok-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 0, 80, 0.6);
+}
