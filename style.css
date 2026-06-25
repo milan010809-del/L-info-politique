@@ -240,23 +240,27 @@ main {
     align-items: center;
     justify-content: center;
 
-    height: 220px;
+    height: 350px; /* cartes plus grandes */
     border-radius: 15px;
 
     text-decoration: none;
     color: white;
 
     font-weight: bold;
+    font-size: 22px;
 
     transition: 0.3s;
     border: 2px solid transparent;
+
+    padding: 20px;
 }
 
 .party img {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
 }
 
 .party:hover {
